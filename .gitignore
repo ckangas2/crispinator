@@ -1,0 +1,17 @@
+# Target pipeline artifacts
+_targets/
+.Rproj.user/
+.Rhistory
+.RData
+
+# Data and Outputs
+data/raw/*
+!data/raw/.gitkeep
+output/
+*.png
+*.pdf
+*.csv
+
+# OS junk
+.DS_Store
+Thumbs.db
